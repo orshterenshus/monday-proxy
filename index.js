@@ -24,6 +24,6 @@ app.post("/monday", async (req, res) => {
 
 app.listen(3000, () => {
   console.log("Proxy server running on port 3000");
-  console.log("TOKEN FROM ENV:", MONDAY_TOKEN);
 });
+
 
